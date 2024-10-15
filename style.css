@@ -1,0 +1,8 @@
+form input {
+    background-color: #ffecab;
+}
+
+.formulir {
+    display: flex;
+    justify-content: center;
+}
