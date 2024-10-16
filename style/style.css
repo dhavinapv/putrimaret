@@ -1,8 +1,10 @@
-form input {
+.form-input {
     background-color: #ffecab;
+    margin-left: 2rem;
 }
 
 .formulir {
     display: flex;
     justify-content: center;
+    max-width: 600px;
 }
