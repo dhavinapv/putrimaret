@@ -5,39 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DhavinaWorld</title>
     <link rel="icon" type="image/x-icon" href="images/icon2.png">
-    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <!-- ini style -->
 <style>
-.head {
+head {
   min-height: 100vh;
   display: flex;
   background-image: url('images/cover1.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
-  padding: 0;
-  box-sizing: none;
-  outline: none;
-  border: none;
-  text-decoration: none;
 }
 </style>
 
 <body bgcolor="#ffecab" style="margin: 20px">
-
-<nav>
-  <div class="navbar">
-    <img src="" alt="">
-    <a href="#"><b>Home</b></a>
-    <a href="#Profil"><b>Profil</b></a>
-    <a href="#Permintaan"><b>Permintaan</b></a>
-    <a href="#Kontak"><b>Kontak</b></a>
-  </div>
-</nav>
-
-<div class="head"></div>
 
 <h1 style="background-color: #732c16; color: #ffecab; font-size: 200%;
     font-family: gill sans; text-align: center">Belajar HTML</h1>
@@ -59,11 +40,18 @@
 <h2 style="font-size: 150%; font-family: serif; text-align: center">Zayn Malik: Si Penyanyi yang Bikin Baper!</h2>
 
 <!-- HTML CSS images-->
-<div style="text-align: center" id="Profil">
+<div style="text-align: center">
     <a href="https://www.instagram.com/zayn" target="_blank"><img src="images/zayn.png" alt="Zayn Malik's Timeless Charm" title="Zayn Malik" width="252.774px" height="auto"></a>
 </div>
 
-<table class="center-table" width="auto">
+<!-- ini style -->
+<style>
+.table1, .td1 {
+    border-style: none; padding-left: 3px; padding-top: 0px; padding-bottom: 0px; font-family: segoe ui
+}
+</style>
+
+<table width="auto" style="margin-left: auto; margin-right: auto;">
   <tr>
     <td class="td1" style="text-align: right">Nama Lengkap:</td>
     <td class="td1"></td>
@@ -127,6 +115,16 @@
 <p style="font-size: 100%; font-family: gill sans; margin-top: 2rem"><b>Lagu-Lagu Terbaik Zayn Malik</b></p>
 <p style="font-family: trebuchet ms; text-align: justify">Berikut ini adalah beberapa lagu yang diciptakan dan dinyanyikan oleh
     Zayn Malik, baik sebagai artis solo maupun saat masih menjadi anggota One Direction:</p>
+
+<!-- ini style -->
+<style>
+.table2, .th2 {
+    border:1px solid #732c16;font-family: trebuchet ms; padding: 5px
+}
+.td2 {
+  border:1px solid #732c16; font-family: trebuchet ms; padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px;
+}
+</style>
 
 <table class="table2" style="width: auto">
   <tr style="background-color: #732c16; color: #ffecab">
@@ -234,7 +232,7 @@
 </div>
 <br>
 
-<form action="/action_page.php" class="formulir" id="Permintaan">
+<form action="/action_page.php" class="formulir">
   <fieldset style="border: 1.5px solid #732c16">
     <legend style="font-size: 140%; font-family: gill sans; background-color: #732c16; color: #ffecab; margin-bottom: 5px"><b>Permintaan Konten Website</b></legend>
     <label for="name" style="font-family: segoe ui">Nama Pengirim:</label><br>
@@ -278,16 +276,16 @@
 </style>
 
 <footer id="footer">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.619810501689!2d106.75276967333414!3d-6.313571861780834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69efcead9423ad%3A0xb2317a62631b2ca0!2sFakultas%20Adab%20dan%20Humaniora%20UIN%20Syarif%20Hidayatullah%20Jakarta!5e0!3m2!1sid!2sid!4v1729059187060!5m2!1sid!2sid"
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.619810501689!2d106.75276967333414!3d-6.313571861780834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69efcead9423ad%3A0xb2317a62631b2ca0!2sFakultas%20Adab%20dan%20Humaniora%20UIN%20Syarif%20Hidayatullah%20Jakarta!5e0!3m2!1sid!2sid!4v1729059187060!5m2!1sid!2sid"
   width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
+</iframe>
 
-  <p style="float: right; padding-right: 4rem; padding-top: 15px; font-size: 110%; text-align: right">
+<p style="float: right; padding-right: 4rem; padding-top: 8px; font-size: 120%; text-align: right">
   Hak Cipta © 2024 <i>Dhavina Putri Velissa</i><br>All Rights Reserved.<br>
-  <a href="mailto:dhavina.pvelissa@gmail.com"><img src="images/gmail.png" style="width: 36px; height: 36px; padding-top: 10px"></a>
-  <a href="https://www.instagram.com/dhavinapv" target="_blank"><img src="images/instagram.png" style="width: 36px; height: 36px"></a>
-  <a href="https://w3schools.com" target="_blank"><img src="images/website.png" style="width: 36px; height: 36px"></a>
-  </p>
+<a href="mailto:dhavina.pvelissa@gmail.com"><img src="images/gmail.png" style="width: 42px; height: 42px; padding-top: 10px"></a>
+<a href="https://www.instagram.com/dhavinapv" target="_blank"><img src="images/instagram.png" style="width: 42px; height: 42px"></a>
+<a href="https://w3schools.com" target="_blank"><img src="images/website.png" style="width: 42px; height: 42px"></a>
+</p>
 </footer>
 
 </body>

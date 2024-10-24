@@ -1,4 +1,8 @@
-.form-input {
+html {
+    scroll-behavior: smooth;
+}
+
+/* .form-input {
     background-color: #ffecab;
     margin-left: 2rem;
 }
@@ -7,4 +11,44 @@
     display: flex;
     justify-content: center;
     max-width: 600px;
+
+.formulir 
+} */
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.table1, .td1 {
+    border-style: none; padding-left: 3px; padding-top: 0px; padding-bottom: 0px; font-family: segoe ui
+}
+.table2, .th2 {
+    border:1px solid #732c16;font-family: trebuchet ms; padding: 5px
+}
+.td2 {
+  border:1px solid #732c16; font-family: trebuchet ms; padding-left: 10px; padding-right: 10px; padding-top: 3px; padding-bottom: 3px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 7%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    position: relative;
+    border-bottom: 1px solid black;
+    background-color: #ffecab;
+
+}
+
+.navbar a {
+    color: #732c16;
+    font-family: trebuchet ms;
+    font-size: 110%;
+    margin: 0 1rem;
+    display: inline-block;
+    text-decoration: none;
 }
