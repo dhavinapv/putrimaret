@@ -10,7 +10,7 @@ head {
 
 body {
     background-color: #ffecab;
-    margin: 20px;
+    margin: 0 25px;
 }
 
 .h1 {
@@ -22,7 +22,6 @@ body {
     margin: 30px 15px;
     outline: 1px solid #732c16;
     outline-offset: 10px;
-    letter-spacing: 3px;
 }
 
 .h2 {
@@ -99,12 +98,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 1rem 7%;
+    margin: 0 -30px;
     top: 0;
     left: 0;
     right: 0;
     z-index: 9999;
     position: relative;
-    border-bottom: 1px solid black;
+    border-bottom: 1.5px solid #732c16;
     background-color: #ffecab;
 }
 
@@ -118,6 +118,13 @@ body {
     padding-right: 20px;
 }
 
+.navbar a:hover, .navbar a:active {
+   background-color: #732c16; 
+   color: #ffecab;
+   text-align: center;
+   justify-content: center;
+}
+
 .dropbtn {
     color: #732c16;
     font-size: 110%;
@@ -129,6 +136,8 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 
 .dropdown-content {
@@ -158,14 +167,19 @@ body {
     display: block;
 }
 
-#box-model {
+.box-model {
     background-color: #ffecab;
-    width: 1000px;
+    width: 1060px;
     border: 5px solid #732c16;
     padding: 20px;
     margin: 20px;
     text-align: center;
     font-family: trebuchet ms;
+}
+
+.box-model:hover, .box-model:active {
+    background-color: #732c16;
+    color: #ffecab;
 }
 
 .dashed {
@@ -175,7 +189,7 @@ body {
     padding-top: 5px;
 }
 
-#footer {
+.footer {
     background-color: #732c16;
     color:#ffecab;
     font-family: trebuchet ms;
@@ -183,4 +197,21 @@ body {
     padding-top: 8px;
     padding-bottom: 5px;
     padding-left: 20px;
+    margin: 0 -30px;
+}
+
+.fa-brands.fa-square-instagram.fa-xl {
+    color: #ffecab;
+}
+
+.fa-brands.fa-square-x-twitter.fa-xl {
+    color: #ffecab;
+}
+
+.fa-solid.fa-square-arrow-up-right.fa-xl {
+    color: #ffecab;
+}
+
+.fa-solid.fa-square-envelope.fa-xl {
+    color: #ffecab;
 }
