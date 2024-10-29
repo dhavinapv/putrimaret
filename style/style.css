@@ -52,15 +52,42 @@ body {
     text-indent: 40px;
 }
 
+.records {
+    font-family: trebuchet ms;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.records a:link, .records a:visited {
+    background-color: #732c16;
+    color: #ffecab;
+    padding: 10px;
+    margin-right: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.records a:hover, .records a:active {
+    background-color: #ffecab;
+    color: #732c16;
+    border: 3px solid #732c16
+}
+
 /* .form-input {
     background-color: #ffecab;
     margin-left: 2rem;
+    font
 }
 
 .formulir {
     display: flex;
     justify-content: center;
     max-width: 600px;
+    text-align: center; 
 } */
 
 /* style table */
