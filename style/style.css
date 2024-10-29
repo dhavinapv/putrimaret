@@ -71,7 +71,7 @@ body {
     display: inline-block;
 }
 
-.records a:hover, .records a:active {
+.records a:hover {
     background-color: #ffecab;
     color: #732c16;
     border: 3px solid #732c16
@@ -95,7 +95,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
+ 
 .table1, .td1 {
     border-style: none;
     padding-left: 3px;
@@ -204,7 +204,7 @@ body {
     font-family: trebuchet ms;
 }
 
-.box-model:hover, .box-model:active {
+.box-model:hover {
     background-color: #732c16;
     color: #ffecab;
 }
@@ -227,18 +227,20 @@ body {
     margin: 0 -30px;
 }
 
+.fa-brands.fa-square-instagram.fa-2xl {
+    color: #ffecab;}
+.fa-solid.fa-square-envelope.fa-2xl {
+    color: #ffecab;}
+
 .fa-brands.fa-square-instagram.fa-xl {
-    color: #ffecab;
-}
-
+    color: #ffecab;}
 .fa-brands.fa-square-x-twitter.fa-xl {
-    color: #ffecab;
-}
-
-.fa-solid.fa-square-arrow-up-right.fa-xl {
-    color: #ffecab;
-}
-
-.fa-solid.fa-square-envelope.fa-xl {
-    color: #ffecab;
-}
+    color: #ffecab;}
+.fa-brands.fa-square-facebook.fa-xl {
+    color: #ffecab;}
+.fa-brands.fa-square-youtube.fa-xl {
+    color: #ffecab;}
+.fa-brands.fa-spotify.fa-xl {
+    color: #ffecab}
+.fa-solid.fa-paperclip.fa-xl {
+    color: #ffecab;}
