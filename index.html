@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DhavinaWorld</title>
     <link rel="icon" type="image/x-icon" href="images/icon2.png">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/2a7b768fb7.js" crossorigin="anonymous"></script>
 </head>
 
@@ -26,23 +26,42 @@
 </style>
 
 <body>
+<nav id="navbar">
+  <div class="navbar-judul">
+    <a href="#"><h1>DHAVINAWORLD</h1></a>
+  </div>
 
-<nav>
-  <div class="navbar">
-    <a href="#Home"><b>Home</b></a>
+  <div class="navbartoogle">
+    <a href="#Home">Home</a>
     <div class="dropdown">
-     <a href="#Profil" class="dropbtn"><b>Profil</b></a>
+     <a href="#Profil" class="dropbtn">Profil</a>
       <div class="dropdown-content">
         <a href="#karier">Karier Musik</a>
         <a href="#medsos">Pengaruh di Media Sosial</a>
         <a href="#family">Kehidupan Pribadi</a>
       </div>
     </div>
-    <a href="#Permintaan"><b>Permintaan</b></a>
-    <a href="#Kontak"><b>Kontak</b></a>
+    <a href="#Permintaan">Permintaan</a>
+    <a href="#Kontak">Kontak</a>
   </div>
 </nav>
 
+<script type="text/javascript">
+  var lastScrollTop = 0;
+    navbar = document.getElementById("navbar");
+  window.addEventListener("scroll", function(){
+    var scrollTop = window.pageYOffset || document
+      .documentElement.scrollTop;
+    if (scrollTop > lastScrollTop){
+      navbar.style.top='-80px';
+    } else {
+      navbar.style.top="0";
+    }
+      lastScrollTop = scrollTop;
+  })
+</script>
+
+<br><br><br>
 <div class="head" id="Home"></div>
 
 <h1 class="h1">Belajar HTML</h1>
@@ -272,6 +291,7 @@
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
 </div>
+
 <br>
 <hr style="margin: 10px -30px; border: 1px solid #732c16;">
 <div style="text-align: center;">
@@ -304,7 +324,19 @@
     </fieldset>
 </form> 
 </div>
+
 <br>
+<h3 class="h3">Kesimpulan</h3>
+<div class="rating">
+  <p id="kepuasan">Zayn Malik, seorang penyanyi berbakat dan mantan anggota boyband terkenal, terus mencuri perhatian dunia dengan suara khas dan gaya uniknya. Karya-karyanya yang penuh
+    emosi dan kreativitas menunjukkan perjalanan seorang seniman yang selalu berani mengeksplorasi jati diri melalui musik. Temukan kisah inspiratif dan karya terbaik Zayn yang tak
+    pernah gagal menginspirasi para penggemarnya di seluruh dunia.</p>
+  <button type="button" onclick='document.getElementById("kepuasan").innerHTML= 
+  "Terima kasih telah mengunjungi situs kami. Kami berharap informasi yang disajikan dapat memberikan wawasan baru dan inspirasi bagi Anda. Jangan ragu untuk kembali dan temukan berbagai pembaruan serta konten menarik lainnya. Sampai jumpa di kunjungan Anda berikutnya!"'
+  >Apresiasi atas Kunjungan Anda</button>
+</div>
+
+<br><br>
 <hr style="border: 1px solid #732c16; margin: 5px -30px;">
 
 <footer class="footer">

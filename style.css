@@ -120,29 +120,42 @@ body {
 }
 
 /* style navbar */
-.navbar {
+nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 7%;
+    padding: 0 7%;
     margin: 0 -30px;
+    background-color: #ffecab;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     top: 0;
     left: 0;
     right: 0;
     z-index: 9999;
-    position: relative;
-    border-bottom: 1.5px solid #732c16;
-    background-color: #ffecab;
+    position: fixed;
+    transition: all 300ms ease-in-out;
+    height: 80px;
 }
 
-.navbar a {
+.navbar-judul a {
+    font-family: segoe ui;
+    letter-spacing: 1px;
     color: #732c16;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.navbartoogle a {
+    color: black;
     font-family: trebuchet ms;
     font-size: 110%;
     margin: 0 1rem;
     display: inline-block;
     text-decoration: none;
-    padding-right: 20px;
+    padding-right: 2px;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .navbar a:hover, .navbar a:active {
@@ -214,6 +227,22 @@ body {
     border-color: #732c16;
     border-width: 1px;
     padding-top: 5px;
+}
+
+.rating {
+    font-family: trebuchet ms;
+    text-align: center;
+}
+
+.rating button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rating button:hover {
+    background-color: #732c16;
+    color: #ffecab;
 }
 
 .footer {
